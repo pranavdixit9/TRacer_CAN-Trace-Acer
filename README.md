@@ -34,7 +34,7 @@ Ensure Ollama is running before starting the tool:
 
 ## 🛠 Folder Structure
 
-E:\TRacer\
+\TRacer\
 ├── venv\                  # Python virtual environment
 ├── scripts\
 │   ├── app.py             # Main Streamlit app
