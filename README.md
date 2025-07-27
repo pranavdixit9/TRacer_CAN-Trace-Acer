@@ -1,6 +1,6 @@
 # TRacer: UDS CAN Trace Analyzer
 
-TRacer is an offline diagnostic CAN trace analyzer tool built with Streamlit and powered by a local LLM (Mistral 7B Instruct via Ollama). It explains .asc and .log UDS CAN traces with collapsible sections, color-coded diagnostic services, and PDF export support.
+TRacer is an offline diagnostic CAN trace analyzer tool built with Streamlit and powered by a local LLM (Mistral 7B Instruct via Ollama). It explains .asc and .txt UDS CAN traces with color-coded diagnostic services, and PDF export support.
 
 ---
 
@@ -49,8 +49,8 @@ E:\TRacer\
 
 ### 1. Clone or Download TRacer
 
-Make sure the folder structure matches the above. Place the project in:
-E:\TRacer\
+Place the project in:
+TRacer\
 
 ### 2. Install Dependencies
 
@@ -67,7 +67,7 @@ This script will:
 
 ### 1. Launch the Tool
 
-From the root folder (E:\TRacer\), run:
+From the root folder (TRacer\), run:
   TRacer.bat
 
 This will:
@@ -78,7 +78,7 @@ This will:
 
 Supported formats:
 - .asc
-- .log
+- .txt
 
 ### 3. Analyze Trace
 
