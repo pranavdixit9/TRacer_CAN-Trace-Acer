@@ -35,13 +35,13 @@ Ensure Ollama is running before starting the tool:
 ## 🛠 Folder Structure
 
 \TRacer\
-├── venv\                  # Python virtual environment
-├── scripts\
-│   ├── app.py             # Main Streamlit app
-│   ├── utils.py           # Helper functions (PDF, etc.)
-│   └── install.bat        # First-time setup script
-├── TRacer.bat             # Launches the tool (activates venv + runs app)
-├── req.txt                # Python dependencies
+|- venv\                  # Python virtual environment
+|- scripts\
+  ---- app.py             # Main Streamlit app
+  ---- utils.py           # Helper functions (PDF, etc.)
+  ---- install.bat        # First-time setup script
+|- TRacer.bat             # Launches the tool (activates venv + runs app)
+|- req.txt                # Python dependencies
 
 ---
 
